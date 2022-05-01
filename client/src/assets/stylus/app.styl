@@ -1,0 +1,72 @@
+@import 'variables'
+@import 'bootstrap/dist/css/bootstrap.min.css'
+@import 'sweetalert2/dist/sweetalert2.min.css'
+@import 'vue-awesome-notifications/dist/styles/style.css'
+@import 'fork-awesome/css/fork-awesome.min.css'
+
+@import 'admin'
+
+@import 'elements/card'
+@import 'elements/navbar'
+@import 'elements/buttons'
+@import 'elements/transitions'
+@import 'elements/themes'
+
+a
+  cursor: pointer
+
+.ql-picker.ql-customimage
+  .ql-picker-label:before
+    font-family: 'ForkAwesome'
+    content: '\f03e'
+
+  .ql-picker-item[data-value="0"]:before
+    content: ""
+    visibility: hidden
+
+  .ql-picker-item[data-value="1"]:before
+    content: "Upload from local"
+
+  .ql-picker-item[data-value="2"]:before
+    content: "Select from gallery"
+
+.ql-editor.page-content
+  height: auto
+  padding: 0
+  line-height: inherit
+  tab-size: inherit
+  overflow: inherit
+  white-space: pre-line
+.quill-editor iframe {
+    pointer-events: none;
+}
+  img
+    max-width: 100%
+
+blockquote {
+	border-left: 4px solid #ccc !important
+	margin-bottom: 5px !important
+	margin-top: 5px !important
+	padding-left: 16px !important
+}
+
+.ql-syntax {
+	background-color: #23241f !important
+	color: #f8f8f2 !important
+	overflow: visible !important
+	border-radius: 3px !important
+	margin-bottom: 5px !important
+	margin-top: 5px !important
+	padding: 5px 10px !important
+
+}
+
+.themes
+  .col-12
+    padding-left: 45px
+    margin-top: -25px
+  .col-12:nth-child(2)
+    padding-left: 30px
+    padding-right: 0
+  .col-12.pt-5, .col-12.pb-5
+    display: none

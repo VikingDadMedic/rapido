@@ -1,0 +1,11 @@
+client
+images
+.editorconfig
+.gitignore
+CONTRIBUTING.md
+COPYING
+docker-compose.yml
+Dockerfile
+.dockerignore
+Makefile
+README.md

@@ -1,0 +1,34 @@
+# Rapido is software to make a website. Rapido is fast, easy to use and respectful of your privacy.
+# Copyright (C) 2018 Azzam A.I <azzamai91@gmail.com>, Widiyaksa A <widiyaksa@gmail.com>, David VANTYGHEM <david.vantyghem@laposte.net>, Louis LAUGIER <l.laugier@protonmail.com>
+# Rapido is a complete rewrite of razorCMS from Paul SMITH (https://github.com/smiffy6969).
+
+# This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
+
+# You should have received a copy of the GNU Affero General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+# EditorConfig file. See https://editorconfig.org
+
+# Shell formatting : https://google.github.io/styleguide/shellguide.html#s5-formatting
+# Go formatting : https://golang.org/doc/effective_go.html#formatting
+# XML formatting : https://google.github.io/styleguide/xmlstyle.html
+# HTML/CSS formatting : https://google.github.io/styleguide/htmlcssguide.html#General_Formatting_Rules
+# JavaScript formatting : https://google.github.io/styleguide/jsguide.html#formatting
+# JSON formatting : https://google.github.io/styleguide/jsoncstyleguide.xml
+
+root = true
+
+[*]
+# Register all files as UTF-8 without BOM. See https://en.wikipedia.org/wiki/Byte_order_mark
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+max_line_length = off
+
+[*.go]
+indent_style = tab

@@ -1,0 +1,205 @@
+.admin-sidebar
+  position: fixed
+  top: 50%
+  transform: translateY(-50%)
+  left: 0
+  z-index: 10
+
+  .sidebar-menu
+    position: relative
+    padding: 0
+
+    > li
+      position relative
+      list-style: none
+
+      a
+        display: block
+        padding: 10px 15px
+        color: inherit
+        background: transparent
+        text-decoration: none
+
+        .label
+          display: none
+
+        &:hover
+          color: white
+          background: sidebar-hover-bg
+
+        > svg
+          margin-right: 10px;
+
+      > ul
+        position: absolute
+        list-style: none
+        left: 100%
+        top: 0
+        padding: 0;
+        display: none
+
+      &:hover
+        // border-bottom: 1px solid grey
+        > ul
+          display: block
+
+        .label
+          display: inline
+
+      &.active
+        a
+          // font-weight: bold
+          // color: white
+          // background: sidebar-hover-bg
+
+
+    > liquit
+      position relative
+      list-style: none
+
+      a
+        display: block
+        padding: 10px 15px
+        color: inherit
+        background: transparent
+        text-decoration: none
+
+        .label
+          display: none
+
+        &:hover
+          color: white
+          background: sidebar-hover-quit
+
+        > svg
+          margin-right: 10px;
+
+      > ul
+        position: absolute
+        list-style: none
+        left: 100%
+        top: 0
+        padding: 0;
+        display: none
+
+      &:hover
+        // border-bottom: 1px solid grey
+        > ul
+          display: block
+
+        .label
+          display: inline
+
+      &.active
+        a
+          // font-weight: bold
+          // color: white
+          // background: sidebar-hover-bg
+
+
+    > liarchive
+      position relative
+      list-style: none
+
+      a
+        display: block
+        padding: 10px 15px
+        color: inherit
+        background: transparent
+        text-decoration: none
+
+        .label
+          display: none
+
+        &:hover
+          color: white
+          background: sidebar-hover-archive
+
+        > svg
+          margin-right: 10px;
+
+      > ul
+        position: absolute
+        list-style: none
+        left: 100%
+        top: 0
+        padding: 0;
+        display: none
+
+      &:hover
+        // border-bottom: 1px solid grey
+        > ul
+          display: block
+
+        .label
+          display: inline
+
+      &.active
+        a
+          // font-weight: bold
+          // color: white
+          // background: sidebar-hover-bg
+
+
+    > lipublish
+      position relative
+      list-style: none
+
+      a
+        display: block
+        padding: 10px 15px
+        color: inherit
+        background: transparent
+        text-decoration: none
+
+        .label
+          display: none
+
+        &:hover
+          color: white
+          background: sidebar-hover-publish
+
+        > svg
+          margin-right: 10px;
+
+      > ul
+        position: absolute
+        list-style: none
+        left: 100%
+        top: 0
+        padding: 0;
+        display: none
+
+      &:hover
+        // border-bottom: 1px solid grey
+        > ul
+          display: block
+
+        .label
+          display: inline
+
+      &.active
+        a
+          // font-weight: bold
+          // color: white
+          // background: sidebar-hover-bg
+
+
+  @media (max-width: 767px)
+    top: auto;
+    bottom: 0
+    left: 0
+    width: 100%
+    max-height: 60px
+    overflow-x: auto
+    color: light
+    background: primary
+    transform: translateY(0)
+
+    .sidebar-menu
+      width: auto
+      font-size: 1.5rem
+      margin-bottom: 0
+
+      > li
+        display: inline-block

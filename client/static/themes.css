@@ -1,0 +1,20 @@
+/* html { font-size: initial } */
+body { font-size: 16px }
+.navbar-brand {
+  height: auto;
+}
+@media (min-width: 768px) {
+  .navbar-nav>li>a {
+  }
+}
+body .template-wrapper .template-footer .template-footer-menu ul li {
+  display: block;
+}
+.nav-link {
+  display: block;
+  padding: .5rem 1rem;
+}
+.modal {
+  z-index: 1050;
+}
+.admin-settings { color:#343a40 }
